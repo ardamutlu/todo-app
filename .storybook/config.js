@@ -7,8 +7,8 @@ import '@formatjs/intl-relativetimeformat/dist/locale-data/en';
 import '@formatjs/intl-relativetimeformat/dist/locale-data/tr';
 import { GlobalStyle } from '../src/client/components/App';
 
-const enMessages = require('../src/client/i18n/messages/en.json');
-const trMessages = require('../src/client/i18n/messages/tr.json');
+const enMessages = require('../src/client/i18n/messages/en.js');
+const trMessages = require('../src/client/i18n/messages/tr.js');
 
 const allMessages = {
   en: enMessages,

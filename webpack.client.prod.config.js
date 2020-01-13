@@ -25,13 +25,7 @@ const config = {
       theme_color: '#3498db',
       description: 'introducing SPA and SSR',
       background_color: '#f5f5f5',
-      crossorigin: 'use-credentials',
-      icons: [
-        {
-          src: resolve('./assets/avatar.png'),
-          sizes: [96, 128, 192, 256, 384, 512]
-        }
-      ]
+      crossorigin: 'use-credentials'
     }),
     new GenerateSW({
       clientsClaim: true,

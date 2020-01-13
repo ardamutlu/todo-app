@@ -1,14 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="de57b23d-6fca-4020-b922-785114434f35" name="Default Changelist" comment="" />
+    <list default="true" id="de57b23d-6fca-4020-b922-785114434f35" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.storybook/config.js" beforeDir="false" afterPath="$PROJECT_DIR$/.storybook/config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/client/i18n/I18nProvider.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/client/i18n/I18nProvider.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/client/i18n/messages/en.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/client/i18n/messages/en.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/client/i18n/messages/tr.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/client/i18n/messages/tr.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack.client.prod.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.client.prod.config.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/backend" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1W7mRPM85fWGAtyrYvVEJLuReO6" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -68,7 +76,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1578508998071</updated>
-      <workItem from="1578509000678" duration="124679000" />
+      <workItem from="1578509000678" duration="125651000" />
     </task>
     <servers />
   </component>
@@ -96,10 +104,10 @@
       <screen x="0" y="23" width="1680" height="947" />
     </state>
     <state x="495" y="118" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.23.1680.947@0.23.1680.947" timestamp="1578750930277" />
-    <state x="488" y="237" width="703" height="518" key="find.popup" timestamp="1578945584011">
+    <state x="488" y="237" width="703" height="518" key="find.popup" timestamp="1578947204202">
       <screen x="0" y="23" width="1680" height="947" />
     </state>
-    <state x="488" y="237" width="703" height="518" key="find.popup/0.23.1680.947@0.23.1680.947" timestamp="1578945584011" />
+    <state x="488" y="237" width="703" height="518" key="find.popup/0.23.1680.947@0.23.1680.947" timestamp="1578947204202" />
     <state x="504" y="230" width="670" height="676" key="search.everywhere.popup" timestamp="1578919738140">
       <screen x="0" y="23" width="1680" height="947" />
     </state>
