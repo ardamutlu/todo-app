@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render 404 page 1`] = `
+<DocumentFragment>
+  <header
+    class="sc-bdVaJa iWaBGU"
+  >
+    <span>
+      development
+    </span>
+  </header>
+  <div
+    class="sc-bwzfXH uTxCW"
+  >
+    <p>
+      404
+    </p>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`should render Home page 1`] = `
+<DocumentFragment>
+  <header
+    class="sc-bdVaJa iWaBGU"
+  >
+    <span>
+      development
+    </span>
+  </header>
+  <div
+    class="sc-bwzfXH uTxCW"
+  >
+    <p>
+      Home
+    </p>
+  </div>
+</DocumentFragment>
+`;

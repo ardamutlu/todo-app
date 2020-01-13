@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should create safe html 1`] = `
+"<!DOCTYPE html>
+    <html lang=\\"en\\">
+      <head>
+        <meta charSet=\\"UTF-8\\" />
+        <meta name=\\"viewport\\" content=\\"width=device-width, initial-scale=1.0\\" />
+        <meta name=\\"Description\\" content=\\"introducing SPA and SSR\\">
+        <meta property=\\"csp-nonce\\" content=\\"nonce\\">
+        <meta>meta</meta>
+        <link rel=\\"manifest\\" href=\\"/manifest.webmanifest\\">
+        <link href=\\"https://fonts.googleapis.com/css?family=Ubuntu:400,500,700&display=swap\\" rel=\\"stylesheet\\">
+        <link
+          rel=\\"stylesheet\\"
+          href=\\"https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css\\"
+          integrity=\\"sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T\\"
+          crossorigin=\\"anonymous\\"
+        />
+        <style>style</style>
+      </head>
+      <body>
+        <body>body</body>
+        <script nonce=\\"nonce\\" id=\\"initial-data\\" type=\\"text/plain\\" data-json=\\"{&quot;arr&quot;:[&quot;foo&quot;,&quot;bar&quot;],&quot;obj&quot;:{&quot;foo&quot;:1,&quot;bar&quot;:1},&quot;str&quot;:&quot;テスト&quot;}\\"></script>
+        <script>window</script>
+      </body>
+    </html>"
+`;

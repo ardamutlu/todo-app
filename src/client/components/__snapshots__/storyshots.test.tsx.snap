@@ -1,0 +1,63 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Head Base 1`] = `
+<div
+  style={
+    Object {
+      "fontSize": "1rem",
+      "margin": "12px",
+    }
+  }
+/>
+`;
+
+exports[`Storyshots AsideRight Base 1`] = `
+<div
+  style={
+    Object {
+      "fontSize": "1rem",
+      "margin": "12px",
+    }
+  }
+>
+  <header
+    className="sc-bdVaJa iWaBGU"
+  >
+    <span>
+      development
+    </span>
+  </header>
+</div>
+`;
+
+exports[`Storyshots Documentation Base 1`] = `
+<div
+  style={
+    Object {
+      "fontSize": "1rem",
+      "margin": "12px",
+    }
+  }
+>
+  <div
+    className="sc-htpNat kzpLJG"
+  >
+    [404] Not Found
+  </div>
+</div>
+`;
+
+exports[`Storyshots Home Base 1`] = `
+<div
+  style={
+    Object {
+      "fontSize": "1rem",
+      "margin": "12px",
+    }
+  }
+>
+  <section>
+    asdasdas
+  </section>
+</div>
+`;

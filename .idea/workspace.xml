@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="de57b23d-6fca-4020-b922-785114434f35" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/backend" />
+  </component>
+  <component name="ProjectId" id="1W7mRPM85fWGAtyrYvVEJLuReO6" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="NewWatcherDialog.advanced.open" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/client/components/Aside/components/TodayList" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="prettierjs.PrettierConfiguration.Package" value="$PROJECT_DIR$/node_modules/prettier" />
+    <property name="settings.editor.selected.configurable" value="watcher.settings" />
+    <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/client/components/pages/Home" />
+      <recent name="$PROJECT_DIR$/src/client/templates" />
+      <recent name="$PROJECT_DIR$/src/client" />
+      <recent name="$PROJECT_DIR$/src/client/utils" />
+      <recent name="$PROJECT_DIR$/src/client/theme" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/client/components/Aside/components/TodayList" />
+      <recent name="$PROJECT_DIR$/src/client/components/pages" />
+      <recent name="$PROJECT_DIR$/src/client/sagas" />
+      <recent name="$PROJECT_DIR$/src/client/reducers" />
+      <recent name="$PROJECT_DIR$/src/client/actions" />
+    </key>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="de57b23d-6fca-4020-b922-785114434f35" name="Default Changelist" comment="" />
+      <created>1578508998071</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1578508998071</updated>
+      <workItem from="1578509000678" duration="124679000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="564" y="296" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1578512877138">
+      <screen x="0" y="23" width="1680" height="947" />
+    </state>
+    <state x="564" y="296" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1680.947@0.23.1680.947" timestamp="1578512877138" />
+    <state x="578" y="250" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1578509782937">
+      <screen x="0" y="23" width="1680" height="947" />
+    </state>
+    <state x="578" y="250" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1680.947@0.23.1680.947" timestamp="1578509782937" />
+    <state x="489" y="275" width="701" height="690" key="EditFileWatcherDialog" timestamp="1578509501321">
+      <screen x="0" y="23" width="1680" height="947" />
+    </state>
+    <state x="489" y="275" width="701" height="690" key="EditFileWatcherDialog/0.23.1680.947@0.23.1680.947" timestamp="1578509501321" />
+    <state x="341" y="135" key="SettingsEditor" timestamp="1578509502554">
+      <screen x="0" y="23" width="1680" height="947" />
+    </state>
+    <state x="341" y="135" key="SettingsEditor/0.23.1680.947@0.23.1680.947" timestamp="1578509502554" />
+    <state x="495" y="118" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1578750930277">
+      <screen x="0" y="23" width="1680" height="947" />
+    </state>
+    <state x="495" y="118" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.23.1680.947@0.23.1680.947" timestamp="1578750930277" />
+    <state x="488" y="237" width="703" height="518" key="find.popup" timestamp="1578945584011">
+      <screen x="0" y="23" width="1680" height="947" />
+    </state>
+    <state x="488" y="237" width="703" height="518" key="find.popup/0.23.1680.947@0.23.1680.947" timestamp="1578945584011" />
+    <state x="504" y="230" width="670" height="676" key="search.everywhere.popup" timestamp="1578919738140">
+      <screen x="0" y="23" width="1680" height="947" />
+    </state>
+    <state x="504" y="230" width="670" height="676" key="search.everywhere.popup/0.23.1680.947@0.23.1680.947" timestamp="1578919738140" />
+  </component>
+</project>
