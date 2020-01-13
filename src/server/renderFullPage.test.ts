@@ -10,13 +10,10 @@ test('should create safe html', () => {
       foo: 1,
       bar: 1
     },
-    str: 'テスト'
+    str: ''
   });
   const scripts = '<script>window</script>';
-  const graphql = 'graphql';
   const nonce = 'nonce';
 
-  expect(
-    renderFullPage({ meta, style, body, preloadedState, scripts, graphql, nonce })
-  ).toMatchSnapshot();
+  expect(renderFullPage({ meta, style, body, preloadedState, scripts, nonce })).toMatchSnapshot();
 });

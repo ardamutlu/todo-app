@@ -4,6 +4,7 @@ import { createServer } from 'http';
 import express from 'express';
 import * as bodyParser from 'body-parser';
 import compression from 'compression';
+const cors = require('cors');
 import { generateNonceId, csp } from './csp';
 import { router } from './router';
 
@@ -13,6 +14,7 @@ export function runServer() {
 
   app.use(bodyParser.urlencoded({ extended: true }));
   app.use(bodyParser.json());
+  app.use(cors());
 
   // CSP
   app.use(generateNonceId);

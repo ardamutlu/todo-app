@@ -37,10 +37,6 @@ const config = {
           handler: 'StaleWhileRevalidate'
         },
         {
-          urlPattern: new RegExp('api|graphql'),
-          handler: 'NetworkFirst'
-        },
-        {
           urlPattern: new RegExp('https://fonts.googleapis.com|https://fonts.gstatic.com'),
           handler: 'CacheFirst'
         }
