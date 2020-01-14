@@ -27,7 +27,6 @@ const Container = styled.div`
 export const Documentation: React.FC = () => {
   const dispatch = useDispatch();
 
-  // TODO: fix
   dispatch(loadDocumentationPage());
 
   return (

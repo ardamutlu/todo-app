@@ -6,6 +6,7 @@ import configureStore from 'redux-mock-store';
 import { render } from '@testing-library/react';
 import { rootReducer } from '../reducers';
 import { Router } from '.';
+import { IntlProvider } from 'react-intl';
 
 let state: any;
 let store: any;
@@ -26,9 +27,11 @@ beforeEach(() => {
 test('should render Home page', () => {
   const tree = render(
     <Provider store={store}>
-      <MemoryRouter initialEntries={[{ pathname: '/', key: 'testKey' }]}>
-        <Router />
-      </MemoryRouter>
+      <IntlProvider locale="en">
+        <MemoryRouter initialEntries={[{ pathname: '/', key: 'testKey' }]}>
+          <Router />
+        </MemoryRouter>
+      </IntlProvider>
     </Provider>
   );
 
@@ -38,9 +41,11 @@ test('should render Home page', () => {
 test('should render Documentation page', () => {
   const tree = render(
     <Provider store={store}>
-      <MemoryRouter initialEntries={[{ pathname: '/documentation', key: 'testKey' }]}>
-        <Router />
-      </MemoryRouter>
+      <IntlProvider locale="en">
+        <MemoryRouter initialEntries={[{ pathname: '/documentation', key: 'testKey' }]}>
+          <Router />
+        </MemoryRouter>
+      </IntlProvider>
     </Provider>
   );
 
@@ -50,9 +55,11 @@ test('should render Documentation page', () => {
 test('should render 404 page', () => {
   const tree = render(
     <Provider store={store}>
-      <MemoryRouter initialEntries={[{ pathname: '/noPath', key: 'testKey' }]}>
-        <Router />
-      </MemoryRouter>
+      <IntlProvider locale="en">
+        <MemoryRouter initialEntries={[{ pathname: '/noPath', key: 'testKey' }]}>
+          <Router />
+        </MemoryRouter>
+      </IntlProvider>
     </Provider>
   );
 

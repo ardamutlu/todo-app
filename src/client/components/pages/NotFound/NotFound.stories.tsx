@@ -3,6 +3,7 @@ import { Provider } from 'react-redux';
 import configureStore from 'redux-mock-store';
 import NotFound from '.';
 import { initialState } from '../../../reducers';
+import createComponentWithIntl from '../../../utils/createComponentWithIntl';
 
 export default {
   component: NotFound,
@@ -11,8 +12,6 @@ export default {
 
 const store = configureStore()(initialState);
 
-export const Base = () => (
-  <Provider store={store}>
-    <NotFound />
-  </Provider>
-);
+const component = createComponentWithIntl(<NotFound />);
+
+export const Base = () => <Provider store={store}>{component}</Provider>;

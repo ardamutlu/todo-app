@@ -2,38 +2,726 @@
 
 exports[`should render 404 page 1`] = `
 <DocumentFragment>
-  <header
-    class="sc-bdVaJa iWaBGU"
-  >
-    <span>
-      development
-    </span>
-  </header>
   <div
-    class="sc-bwzfXH uTxCW"
+    class="todo-loader"
+    style="opacity: 1; display: flex;"
   >
-    <p>
-      404
-    </p>
+    <div
+      style="fill: #2C2F33; height: 40px; width: 40px;"
+    >
+      <svg
+        viewBox="0 0 32 32"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        
+  
+        <path
+          d="M16 0 A16 16 0 0 0 16 32 A16 16 0 0 0 16 0 M16 4 A12 12 0 0 1 16 28 A12 12 0 0 1 16 4"
+          opacity=".25"
+        />
+        
+  
+        <path
+          d="M16 0 A16 16 0 0 1 32 16 L28 16 A12 12 0 0 0 16 4z"
+        >
+          
+    
+          <animatetransform
+            attributeName="transform"
+            dur="0.8s"
+            from="0 16 16"
+            repeatCount="indefinite"
+            to="360 16 16"
+            type="rotate"
+          />
+          
+  
+        </path>
+        
+
+      </svg>
+      
+
+    </div>
+  </div>
+  <div
+    class="sc-htoDjs lAEuJ"
+  >
+    <div
+      class="sc-bdVaJa cLvXoX"
+    >
+      <div
+        class="w-100 accordion"
+      >
+        <a
+          class="sc-EHOje hTwLFY m-0 p-0 w-100 text-left"
+          href="/noPath"
+        >
+          <h3
+            class="sc-bwzfXH kTTsVt"
+          >
+            Todo App
+          </h3>
+        </a>
+        <div
+          class="collapse show"
+        >
+          <div
+            class="px-0 card-body"
+          >
+            <h5
+              class="sc-htpNat iKRlRU"
+            >
+              MENU.OVERVIEW
+            </h5>
+            <ul
+              class="sc-bxivhb jadNpx"
+            >
+              <li
+                class="sc-ifAKCX jmQrpO"
+              >
+                <a
+                  class="sc-EHOje hTwLFY"
+                  href="/"
+                >
+                  <span
+                    class="sc-bZQynM jaxNnG"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      class="svg-inline--fa fa-list-alt fa-w-16 "
+                      color="#9090C5"
+                      data-icon="list-alt"
+                      data-prefix="fas"
+                      focusable="false"
+                      role="img"
+                      viewBox="0 0 512 512"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M464 480H48c-26.51 0-48-21.49-48-48V80c0-26.51 21.49-48 48-48h416c26.51 0 48 21.49 48 48v352c0 26.51-21.49 48-48 48zM128 120c-22.091 0-40 17.909-40 40s17.909 40 40 40 40-17.909 40-40-17.909-40-40-40zm0 96c-22.091 0-40 17.909-40 40s17.909 40 40 40 40-17.909 40-40-17.909-40-40-40zm0 96c-22.091 0-40 17.909-40 40s17.909 40 40 40 40-17.909 40-40-17.909-40-40-40zm288-136v-32c0-6.627-5.373-12-12-12H204c-6.627 0-12 5.373-12 12v32c0 6.627 5.373 12 12 12h200c6.627 0 12-5.373 12-12zm0 96v-32c0-6.627-5.373-12-12-12H204c-6.627 0-12 5.373-12 12v32c0 6.627 5.373 12 12 12h200c6.627 0 12-5.373 12-12zm0 96v-32c0-6.627-5.373-12-12-12H204c-6.627 0-12 5.373-12 12v32c0 6.627 5.373 12 12 12h200c6.627 0 12-5.373 12-12z"
+                        fill="currentColor"
+                      />
+                    </svg>
+                  </span>
+                  <span
+                    class="sc-gzVnrw cZgFFe"
+                  >
+                    TODO
+                  </span>
+                </a>
+              </li>
+              <li
+                class="sc-ifAKCX jmQrpO"
+              >
+                <a
+                  class="sc-EHOje hTwLFY"
+                  href="/documentation"
+                >
+                  <span
+                    class="sc-bZQynM jaxNnG"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      class="svg-inline--fa fa-file-signature fa-w-18 "
+                      color="#9090C5"
+                      data-icon="file-signature"
+                      data-prefix="fas"
+                      focusable="false"
+                      role="img"
+                      viewBox="0 0 576 512"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M218.17 424.14c-2.95-5.92-8.09-6.52-10.17-6.52s-7.22.59-10.02 6.19l-7.67 15.34c-6.37 12.78-25.03 11.37-29.48-2.09L144 386.59l-10.61 31.88c-5.89 17.66-22.38 29.53-41 29.53H80c-8.84 0-16-7.16-16-16s7.16-16 16-16h12.39c4.83 0 9.11-3.08 10.64-7.66l18.19-54.64c3.3-9.81 12.44-16.41 22.78-16.41s19.48 6.59 22.77 16.41l13.88 41.64c19.75-16.19 54.06-9.7 66 14.16 1.89 3.78 5.49 5.95 9.36 6.26v-82.12l128-127.09V160H248c-13.2 0-24-10.8-24-24V0H24C10.7 0 0 10.7 0 24v464c0 13.3 10.7 24 24 24h336c13.3 0 24-10.7 24-24v-40l-128-.11c-16.12-.31-30.58-9.28-37.83-23.75zM384 121.9c0-6.3-2.5-12.4-7-16.9L279.1 7c-4.5-4.5-10.6-7-17-7H256v128h128v-6.1zm-96 225.06V416h68.99l161.68-162.78-67.88-67.88L288 346.96zm280.54-179.63l-31.87-31.87c-9.94-9.94-26.07-9.94-36.01 0l-27.25 27.25 67.88 67.88 27.25-27.25c9.95-9.94 9.95-26.07 0-36.01z"
+                        fill="currentColor"
+                      />
+                    </svg>
+                  </span>
+                  <span
+                    class="sc-gzVnrw cZgFFe"
+                  >
+                    MENU.DOCUMENTATION
+                  </span>
+                </a>
+              </li>
+              <li
+                class="sc-ifAKCX jmQrpO"
+              >
+                <a
+                  class="sc-EHOje hTwLFY"
+                  href="/noPath"
+                >
+                  <span
+                    class="sc-bZQynM jaxNnG"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      class="svg-inline--fa fa-globe-europe fa-w-16 "
+                      color="#9090C5"
+                      data-icon="globe-europe"
+                      data-prefix="fas"
+                      focusable="false"
+                      role="img"
+                      viewBox="0 0 496 512"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M248 8C111 8 0 119 0 256s111 248 248 248 248-111 248-248S385 8 248 8zm200 248c0 22.5-3.9 44.2-10.8 64.4h-20.3c-4.3 0-8.4-1.7-11.4-4.8l-32-32.6c-4.5-4.6-4.5-12.1.1-16.7l12.5-12.5v-8.7c0-3-1.2-5.9-3.3-8l-9.4-9.4c-2.1-2.1-5-3.3-8-3.3h-16c-6.2 0-11.3-5.1-11.3-11.3 0-3 1.2-5.9 3.3-8l9.4-9.4c2.1-2.1 5-3.3 8-3.3h32c6.2 0 11.3-5.1 11.3-11.3v-9.4c0-6.2-5.1-11.3-11.3-11.3h-36.7c-8.8 0-16 7.2-16 16v4.5c0 6.9-4.4 13-10.9 15.2l-31.6 10.5c-3.3 1.1-5.5 4.1-5.5 7.6v2.2c0 4.4-3.6 8-8 8h-16c-4.4 0-8-3.6-8-8s-3.6-8-8-8H247c-3 0-5.8 1.7-7.2 4.4l-9.4 18.7c-2.7 5.4-8.2 8.8-14.3 8.8H194c-8.8 0-16-7.2-16-16V199c0-4.2 1.7-8.3 4.7-11.3l20.1-20.1c4.6-4.6 7.2-10.9 7.2-17.5 0-3.4 2.2-6.5 5.5-7.6l40-13.3c1.7-.6 3.2-1.5 4.4-2.7l26.8-26.8c2.1-2.1 3.3-5 3.3-8 0-6.2-5.1-11.3-11.3-11.3H258l-16 16v8c0 4.4-3.6 8-8 8h-16c-4.4 0-8-3.6-8-8v-20c0-2.5 1.2-4.9 3.2-6.4l28.9-21.7c1.9-.1 3.8-.3 5.7-.3C358.3 56 448 145.7 448 256zM130.1 149.1c0-3 1.2-5.9 3.3-8l25.4-25.4c2.1-2.1 5-3.3 8-3.3 6.2 0 11.3 5.1 11.3 11.3v16c0 3-1.2 5.9-3.3 8l-9.4 9.4c-2.1 2.1-5 3.3-8 3.3h-16c-6.2 0-11.3-5.1-11.3-11.3zm128 306.4v-7.1c0-8.8-7.2-16-16-16h-20.2c-10.8 0-26.7-5.3-35.4-11.8l-22.2-16.7c-11.5-8.6-18.2-22.1-18.2-36.4v-23.9c0-16 8.4-30.8 22.1-39l42.9-25.7c7.1-4.2 15.2-6.5 23.4-6.5h31.2c10.9 0 21.4 3.9 29.6 10.9l43.2 37.1h18.3c8.5 0 16.6 3.4 22.6 9.4l17.3 17.3c3.4 3.4 8.1 5.3 12.9 5.3H423c-32.4 58.9-93.8 99.5-164.9 103.1z"
+                        fill="currentColor"
+                      />
+                    </svg>
+                  </span>
+                </a>
+                <div
+                  class="w-100 accordion"
+                >
+                  <a
+                    class="sc-EHOje hTwLFY"
+                    href="/noPath"
+                  />
+                  <a
+                    class="sc-EHOje hTwLFY m-0 p-0 w-100 text-left"
+                    href="/noPath"
+                  >
+                    EN
+                  </a>
+                  <div
+                    class="collapse"
+                  >
+                    <div
+                      class="px-0 card-body"
+                    >
+                      <a
+                        class="sc-EHOje hTwLFY pl-0 py-2"
+                        href="/noPath"
+                      >
+                        <img
+                          alt=""
+                          src="https://image.flaticon.com/icons/svg/197/197484.svg"
+                          style="height: 20px;"
+                        />
+                        <span
+                          style="line-height: 1.3; padding-left: .75rem; color: rgb(255, 173, 64);"
+                        >
+                          EN
+                        </span>
+                      </a>
+                      <a
+                        class="sc-EHOje hTwLFY pl-0 py-2"
+                        href="/noPath"
+                      >
+                        <img
+                          alt=""
+                          src="https://image.flaticon.com/icons/svg/197/197518.svg"
+                          style="height: 20px;"
+                        />
+                        <span
+                          style="line-height: 1.3; padding-left: .75rem; color: rgb(144, 144, 197);"
+                        >
+                          TR
+                        </span>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="sc-dnqmqq kPhszq"
+    >
+      <p>
+        404
+      </p>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`should render Documentation page 1`] = `
+<DocumentFragment>
+  <div
+    class="todo-loader"
+    style="opacity: 1; display: flex;"
+  >
+    <div
+      style="fill: #2C2F33; height: 40px; width: 40px;"
+    >
+      <svg
+        viewBox="0 0 32 32"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        
+  
+        <path
+          d="M16 0 A16 16 0 0 0 16 32 A16 16 0 0 0 16 0 M16 4 A12 12 0 0 1 16 28 A12 12 0 0 1 16 4"
+          opacity=".25"
+        />
+        
+  
+        <path
+          d="M16 0 A16 16 0 0 1 32 16 L28 16 A12 12 0 0 0 16 4z"
+        >
+          
+    
+          <animatetransform
+            attributeName="transform"
+            dur="0.8s"
+            from="0 16 16"
+            repeatCount="indefinite"
+            to="360 16 16"
+            type="rotate"
+          />
+          
+  
+        </path>
+        
+
+      </svg>
+      
+
+    </div>
+  </div>
+  <div
+    class="sc-htoDjs lAEuJ"
+  >
+    <div
+      class="sc-bdVaJa cLvXoX"
+    >
+      <div
+        class="w-100 accordion"
+      >
+        <a
+          class="sc-EHOje hTwLFY m-0 p-0 w-100 text-left"
+          href="/documentation"
+        >
+          <h3
+            class="sc-bwzfXH kTTsVt"
+          >
+            Todo App
+          </h3>
+        </a>
+        <div
+          class="collapse show"
+        >
+          <div
+            class="px-0 card-body"
+          >
+            <h5
+              class="sc-htpNat iKRlRU"
+            >
+              MENU.OVERVIEW
+            </h5>
+            <ul
+              class="sc-bxivhb jadNpx"
+            >
+              <li
+                class="sc-ifAKCX jmQrpO"
+              >
+                <a
+                  class="sc-EHOje hTwLFY"
+                  href="/"
+                >
+                  <span
+                    class="sc-bZQynM jaxNnG"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      class="svg-inline--fa fa-list-alt fa-w-16 "
+                      color="#9090C5"
+                      data-icon="list-alt"
+                      data-prefix="fas"
+                      focusable="false"
+                      role="img"
+                      viewBox="0 0 512 512"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M464 480H48c-26.51 0-48-21.49-48-48V80c0-26.51 21.49-48 48-48h416c26.51 0 48 21.49 48 48v352c0 26.51-21.49 48-48 48zM128 120c-22.091 0-40 17.909-40 40s17.909 40 40 40 40-17.909 40-40-17.909-40-40-40zm0 96c-22.091 0-40 17.909-40 40s17.909 40 40 40 40-17.909 40-40-17.909-40-40-40zm0 96c-22.091 0-40 17.909-40 40s17.909 40 40 40 40-17.909 40-40-17.909-40-40-40zm288-136v-32c0-6.627-5.373-12-12-12H204c-6.627 0-12 5.373-12 12v32c0 6.627 5.373 12 12 12h200c6.627 0 12-5.373 12-12zm0 96v-32c0-6.627-5.373-12-12-12H204c-6.627 0-12 5.373-12 12v32c0 6.627 5.373 12 12 12h200c6.627 0 12-5.373 12-12zm0 96v-32c0-6.627-5.373-12-12-12H204c-6.627 0-12 5.373-12 12v32c0 6.627 5.373 12 12 12h200c6.627 0 12-5.373 12-12z"
+                        fill="currentColor"
+                      />
+                    </svg>
+                  </span>
+                  <span
+                    class="sc-gzVnrw cZgFFe"
+                  >
+                    TODO
+                  </span>
+                </a>
+              </li>
+              <li
+                class="sc-ifAKCX jmQrpO active"
+              >
+                <a
+                  class="sc-EHOje hTwLFY"
+                  href="/documentation"
+                >
+                  <span
+                    class="sc-bZQynM jaxNnG"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      class="svg-inline--fa fa-file-signature fa-w-18 "
+                      color="#FFAD40"
+                      data-icon="file-signature"
+                      data-prefix="fas"
+                      focusable="false"
+                      role="img"
+                      viewBox="0 0 576 512"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M218.17 424.14c-2.95-5.92-8.09-6.52-10.17-6.52s-7.22.59-10.02 6.19l-7.67 15.34c-6.37 12.78-25.03 11.37-29.48-2.09L144 386.59l-10.61 31.88c-5.89 17.66-22.38 29.53-41 29.53H80c-8.84 0-16-7.16-16-16s7.16-16 16-16h12.39c4.83 0 9.11-3.08 10.64-7.66l18.19-54.64c3.3-9.81 12.44-16.41 22.78-16.41s19.48 6.59 22.77 16.41l13.88 41.64c19.75-16.19 54.06-9.7 66 14.16 1.89 3.78 5.49 5.95 9.36 6.26v-82.12l128-127.09V160H248c-13.2 0-24-10.8-24-24V0H24C10.7 0 0 10.7 0 24v464c0 13.3 10.7 24 24 24h336c13.3 0 24-10.7 24-24v-40l-128-.11c-16.12-.31-30.58-9.28-37.83-23.75zM384 121.9c0-6.3-2.5-12.4-7-16.9L279.1 7c-4.5-4.5-10.6-7-17-7H256v128h128v-6.1zm-96 225.06V416h68.99l161.68-162.78-67.88-67.88L288 346.96zm280.54-179.63l-31.87-31.87c-9.94-9.94-26.07-9.94-36.01 0l-27.25 27.25 67.88 67.88 27.25-27.25c9.95-9.94 9.95-26.07 0-36.01z"
+                        fill="currentColor"
+                      />
+                    </svg>
+                  </span>
+                  <span
+                    class="sc-gzVnrw cZgFFe"
+                  >
+                    MENU.DOCUMENTATION
+                  </span>
+                </a>
+              </li>
+              <li
+                class="sc-ifAKCX jmQrpO"
+              >
+                <a
+                  class="sc-EHOje hTwLFY"
+                  href="/documentation"
+                >
+                  <span
+                    class="sc-bZQynM jaxNnG"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      class="svg-inline--fa fa-globe-europe fa-w-16 "
+                      color="#9090C5"
+                      data-icon="globe-europe"
+                      data-prefix="fas"
+                      focusable="false"
+                      role="img"
+                      viewBox="0 0 496 512"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M248 8C111 8 0 119 0 256s111 248 248 248 248-111 248-248S385 8 248 8zm200 248c0 22.5-3.9 44.2-10.8 64.4h-20.3c-4.3 0-8.4-1.7-11.4-4.8l-32-32.6c-4.5-4.6-4.5-12.1.1-16.7l12.5-12.5v-8.7c0-3-1.2-5.9-3.3-8l-9.4-9.4c-2.1-2.1-5-3.3-8-3.3h-16c-6.2 0-11.3-5.1-11.3-11.3 0-3 1.2-5.9 3.3-8l9.4-9.4c2.1-2.1 5-3.3 8-3.3h32c6.2 0 11.3-5.1 11.3-11.3v-9.4c0-6.2-5.1-11.3-11.3-11.3h-36.7c-8.8 0-16 7.2-16 16v4.5c0 6.9-4.4 13-10.9 15.2l-31.6 10.5c-3.3 1.1-5.5 4.1-5.5 7.6v2.2c0 4.4-3.6 8-8 8h-16c-4.4 0-8-3.6-8-8s-3.6-8-8-8H247c-3 0-5.8 1.7-7.2 4.4l-9.4 18.7c-2.7 5.4-8.2 8.8-14.3 8.8H194c-8.8 0-16-7.2-16-16V199c0-4.2 1.7-8.3 4.7-11.3l20.1-20.1c4.6-4.6 7.2-10.9 7.2-17.5 0-3.4 2.2-6.5 5.5-7.6l40-13.3c1.7-.6 3.2-1.5 4.4-2.7l26.8-26.8c2.1-2.1 3.3-5 3.3-8 0-6.2-5.1-11.3-11.3-11.3H258l-16 16v8c0 4.4-3.6 8-8 8h-16c-4.4 0-8-3.6-8-8v-20c0-2.5 1.2-4.9 3.2-6.4l28.9-21.7c1.9-.1 3.8-.3 5.7-.3C358.3 56 448 145.7 448 256zM130.1 149.1c0-3 1.2-5.9 3.3-8l25.4-25.4c2.1-2.1 5-3.3 8-3.3 6.2 0 11.3 5.1 11.3 11.3v16c0 3-1.2 5.9-3.3 8l-9.4 9.4c-2.1 2.1-5 3.3-8 3.3h-16c-6.2 0-11.3-5.1-11.3-11.3zm128 306.4v-7.1c0-8.8-7.2-16-16-16h-20.2c-10.8 0-26.7-5.3-35.4-11.8l-22.2-16.7c-11.5-8.6-18.2-22.1-18.2-36.4v-23.9c0-16 8.4-30.8 22.1-39l42.9-25.7c7.1-4.2 15.2-6.5 23.4-6.5h31.2c10.9 0 21.4 3.9 29.6 10.9l43.2 37.1h18.3c8.5 0 16.6 3.4 22.6 9.4l17.3 17.3c3.4 3.4 8.1 5.3 12.9 5.3H423c-32.4 58.9-93.8 99.5-164.9 103.1z"
+                        fill="currentColor"
+                      />
+                    </svg>
+                  </span>
+                </a>
+                <div
+                  class="w-100 accordion"
+                >
+                  <a
+                    class="sc-EHOje hTwLFY"
+                    href="/documentation"
+                  />
+                  <a
+                    class="sc-EHOje hTwLFY m-0 p-0 w-100 text-left"
+                    href="/documentation"
+                  >
+                    EN
+                  </a>
+                  <div
+                    class="collapse"
+                  >
+                    <div
+                      class="px-0 card-body"
+                    >
+                      <a
+                        class="sc-EHOje hTwLFY pl-0 py-2"
+                        href="/documentation"
+                      >
+                        <img
+                          alt=""
+                          src="https://image.flaticon.com/icons/svg/197/197484.svg"
+                          style="height: 20px;"
+                        />
+                        <span
+                          style="line-height: 1.3; padding-left: .75rem; color: rgb(255, 173, 64);"
+                        >
+                          EN
+                        </span>
+                      </a>
+                      <a
+                        class="sc-EHOje hTwLFY pl-0 py-2"
+                        href="/documentation"
+                      >
+                        <img
+                          alt=""
+                          src="https://image.flaticon.com/icons/svg/197/197518.svg"
+                          style="height: 20px;"
+                        />
+                        <span
+                          style="line-height: 1.3; padding-left: .75rem; color: rgb(144, 144, 197);"
+                        >
+                          TR
+                        </span>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="sc-dnqmqq kPhszq"
+    >
+      <p>
+        Documentation
+      </p>
+    </div>
   </div>
 </DocumentFragment>
 `;
 
 exports[`should render Home page 1`] = `
 <DocumentFragment>
-  <header
-    class="sc-bdVaJa iWaBGU"
-  >
-    <span>
-      development
-    </span>
-  </header>
   <div
-    class="sc-bwzfXH uTxCW"
+    class="todo-loader"
+    style="opacity: 1; display: flex;"
   >
-    <p>
-      Home
-    </p>
+    <div
+      style="fill: #2C2F33; height: 40px; width: 40px;"
+    >
+      <svg
+        viewBox="0 0 32 32"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        
+  
+        <path
+          d="M16 0 A16 16 0 0 0 16 32 A16 16 0 0 0 16 0 M16 4 A12 12 0 0 1 16 28 A12 12 0 0 1 16 4"
+          opacity=".25"
+        />
+        
+  
+        <path
+          d="M16 0 A16 16 0 0 1 32 16 L28 16 A12 12 0 0 0 16 4z"
+        >
+          
+    
+          <animatetransform
+            attributeName="transform"
+            dur="0.8s"
+            from="0 16 16"
+            repeatCount="indefinite"
+            to="360 16 16"
+            type="rotate"
+          />
+          
+  
+        </path>
+        
+
+      </svg>
+      
+
+    </div>
+  </div>
+  <div
+    class="sc-htoDjs lAEuJ"
+  >
+    <div
+      class="sc-bdVaJa cLvXoX"
+    >
+      <div
+        class="w-100 accordion"
+      >
+        <a
+          class="sc-EHOje hTwLFY m-0 p-0 w-100 text-left"
+          href="/"
+        >
+          <h3
+            class="sc-bwzfXH kTTsVt"
+          >
+            Todo App
+          </h3>
+        </a>
+        <div
+          class="collapse show"
+        >
+          <div
+            class="px-0 card-body"
+          >
+            <h5
+              class="sc-htpNat iKRlRU"
+            >
+              MENU.OVERVIEW
+            </h5>
+            <ul
+              class="sc-bxivhb jadNpx"
+            >
+              <li
+                class="sc-ifAKCX jmQrpO active"
+              >
+                <a
+                  class="sc-EHOje hTwLFY"
+                  href="/"
+                >
+                  <span
+                    class="sc-bZQynM jaxNnG"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      class="svg-inline--fa fa-list-alt fa-w-16 "
+                      color="#FFAD40"
+                      data-icon="list-alt"
+                      data-prefix="fas"
+                      focusable="false"
+                      role="img"
+                      viewBox="0 0 512 512"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M464 480H48c-26.51 0-48-21.49-48-48V80c0-26.51 21.49-48 48-48h416c26.51 0 48 21.49 48 48v352c0 26.51-21.49 48-48 48zM128 120c-22.091 0-40 17.909-40 40s17.909 40 40 40 40-17.909 40-40-17.909-40-40-40zm0 96c-22.091 0-40 17.909-40 40s17.909 40 40 40 40-17.909 40-40-17.909-40-40-40zm0 96c-22.091 0-40 17.909-40 40s17.909 40 40 40 40-17.909 40-40-17.909-40-40-40zm288-136v-32c0-6.627-5.373-12-12-12H204c-6.627 0-12 5.373-12 12v32c0 6.627 5.373 12 12 12h200c6.627 0 12-5.373 12-12zm0 96v-32c0-6.627-5.373-12-12-12H204c-6.627 0-12 5.373-12 12v32c0 6.627 5.373 12 12 12h200c6.627 0 12-5.373 12-12zm0 96v-32c0-6.627-5.373-12-12-12H204c-6.627 0-12 5.373-12 12v32c0 6.627 5.373 12 12 12h200c6.627 0 12-5.373 12-12z"
+                        fill="currentColor"
+                      />
+                    </svg>
+                  </span>
+                  <span
+                    class="sc-gzVnrw cZgFFe"
+                  >
+                    TODO
+                  </span>
+                </a>
+              </li>
+              <li
+                class="sc-ifAKCX jmQrpO"
+              >
+                <a
+                  class="sc-EHOje hTwLFY"
+                  href="/documentation"
+                >
+                  <span
+                    class="sc-bZQynM jaxNnG"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      class="svg-inline--fa fa-file-signature fa-w-18 "
+                      color="#9090C5"
+                      data-icon="file-signature"
+                      data-prefix="fas"
+                      focusable="false"
+                      role="img"
+                      viewBox="0 0 576 512"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M218.17 424.14c-2.95-5.92-8.09-6.52-10.17-6.52s-7.22.59-10.02 6.19l-7.67 15.34c-6.37 12.78-25.03 11.37-29.48-2.09L144 386.59l-10.61 31.88c-5.89 17.66-22.38 29.53-41 29.53H80c-8.84 0-16-7.16-16-16s7.16-16 16-16h12.39c4.83 0 9.11-3.08 10.64-7.66l18.19-54.64c3.3-9.81 12.44-16.41 22.78-16.41s19.48 6.59 22.77 16.41l13.88 41.64c19.75-16.19 54.06-9.7 66 14.16 1.89 3.78 5.49 5.95 9.36 6.26v-82.12l128-127.09V160H248c-13.2 0-24-10.8-24-24V0H24C10.7 0 0 10.7 0 24v464c0 13.3 10.7 24 24 24h336c13.3 0 24-10.7 24-24v-40l-128-.11c-16.12-.31-30.58-9.28-37.83-23.75zM384 121.9c0-6.3-2.5-12.4-7-16.9L279.1 7c-4.5-4.5-10.6-7-17-7H256v128h128v-6.1zm-96 225.06V416h68.99l161.68-162.78-67.88-67.88L288 346.96zm280.54-179.63l-31.87-31.87c-9.94-9.94-26.07-9.94-36.01 0l-27.25 27.25 67.88 67.88 27.25-27.25c9.95-9.94 9.95-26.07 0-36.01z"
+                        fill="currentColor"
+                      />
+                    </svg>
+                  </span>
+                  <span
+                    class="sc-gzVnrw cZgFFe"
+                  >
+                    MENU.DOCUMENTATION
+                  </span>
+                </a>
+              </li>
+              <li
+                class="sc-ifAKCX jmQrpO"
+              >
+                <a
+                  class="sc-EHOje hTwLFY"
+                  href="/"
+                >
+                  <span
+                    class="sc-bZQynM jaxNnG"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      class="svg-inline--fa fa-globe-europe fa-w-16 "
+                      color="#9090C5"
+                      data-icon="globe-europe"
+                      data-prefix="fas"
+                      focusable="false"
+                      role="img"
+                      viewBox="0 0 496 512"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M248 8C111 8 0 119 0 256s111 248 248 248 248-111 248-248S385 8 248 8zm200 248c0 22.5-3.9 44.2-10.8 64.4h-20.3c-4.3 0-8.4-1.7-11.4-4.8l-32-32.6c-4.5-4.6-4.5-12.1.1-16.7l12.5-12.5v-8.7c0-3-1.2-5.9-3.3-8l-9.4-9.4c-2.1-2.1-5-3.3-8-3.3h-16c-6.2 0-11.3-5.1-11.3-11.3 0-3 1.2-5.9 3.3-8l9.4-9.4c2.1-2.1 5-3.3 8-3.3h32c6.2 0 11.3-5.1 11.3-11.3v-9.4c0-6.2-5.1-11.3-11.3-11.3h-36.7c-8.8 0-16 7.2-16 16v4.5c0 6.9-4.4 13-10.9 15.2l-31.6 10.5c-3.3 1.1-5.5 4.1-5.5 7.6v2.2c0 4.4-3.6 8-8 8h-16c-4.4 0-8-3.6-8-8s-3.6-8-8-8H247c-3 0-5.8 1.7-7.2 4.4l-9.4 18.7c-2.7 5.4-8.2 8.8-14.3 8.8H194c-8.8 0-16-7.2-16-16V199c0-4.2 1.7-8.3 4.7-11.3l20.1-20.1c4.6-4.6 7.2-10.9 7.2-17.5 0-3.4 2.2-6.5 5.5-7.6l40-13.3c1.7-.6 3.2-1.5 4.4-2.7l26.8-26.8c2.1-2.1 3.3-5 3.3-8 0-6.2-5.1-11.3-11.3-11.3H258l-16 16v8c0 4.4-3.6 8-8 8h-16c-4.4 0-8-3.6-8-8v-20c0-2.5 1.2-4.9 3.2-6.4l28.9-21.7c1.9-.1 3.8-.3 5.7-.3C358.3 56 448 145.7 448 256zM130.1 149.1c0-3 1.2-5.9 3.3-8l25.4-25.4c2.1-2.1 5-3.3 8-3.3 6.2 0 11.3 5.1 11.3 11.3v16c0 3-1.2 5.9-3.3 8l-9.4 9.4c-2.1 2.1-5 3.3-8 3.3h-16c-6.2 0-11.3-5.1-11.3-11.3zm128 306.4v-7.1c0-8.8-7.2-16-16-16h-20.2c-10.8 0-26.7-5.3-35.4-11.8l-22.2-16.7c-11.5-8.6-18.2-22.1-18.2-36.4v-23.9c0-16 8.4-30.8 22.1-39l42.9-25.7c7.1-4.2 15.2-6.5 23.4-6.5h31.2c10.9 0 21.4 3.9 29.6 10.9l43.2 37.1h18.3c8.5 0 16.6 3.4 22.6 9.4l17.3 17.3c3.4 3.4 8.1 5.3 12.9 5.3H423c-32.4 58.9-93.8 99.5-164.9 103.1z"
+                        fill="currentColor"
+                      />
+                    </svg>
+                  </span>
+                </a>
+                <div
+                  class="w-100 accordion"
+                >
+                  <a
+                    class="sc-EHOje hTwLFY"
+                    href="/"
+                  />
+                  <a
+                    class="sc-EHOje hTwLFY m-0 p-0 w-100 text-left"
+                    href="/"
+                  >
+                    EN
+                  </a>
+                  <div
+                    class="collapse"
+                  >
+                    <div
+                      class="px-0 card-body"
+                    >
+                      <a
+                        class="sc-EHOje hTwLFY pl-0 py-2"
+                        href="/"
+                      >
+                        <img
+                          alt=""
+                          src="https://image.flaticon.com/icons/svg/197/197484.svg"
+                          style="height: 20px;"
+                        />
+                        <span
+                          style="line-height: 1.3; padding-left: .75rem; color: rgb(255, 173, 64);"
+                        >
+                          EN
+                        </span>
+                      </a>
+                      <a
+                        class="sc-EHOje hTwLFY pl-0 py-2"
+                        href="/"
+                      >
+                        <img
+                          alt=""
+                          src="https://image.flaticon.com/icons/svg/197/197518.svg"
+                          style="height: 20px;"
+                        />
+                        <span
+                          style="line-height: 1.3; padding-left: .75rem; color: rgb(144, 144, 197);"
+                        >
+                          TR
+                        </span>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="sc-dnqmqq kPhszq"
+    >
+      <p>
+        Home
+      </p>
+    </div>
   </div>
 </DocumentFragment>
 `;

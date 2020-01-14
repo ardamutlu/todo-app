@@ -1,0 +1,219 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should handle ADD_NEW_TODO_FAILURE 1`] = `
+Object {
+  "entities": Array [],
+  "error": [Error: 404],
+  "filter": Object {
+    "title": "All",
+    "value": 0,
+  },
+  "loading": false,
+  "query": "",
+}
+`;
+
+exports[`should handle ADD_NEW_TODO_REQUEST 1`] = `
+Object {
+  "entities": Array [],
+  "error": null,
+  "filter": Object {
+    "title": "All",
+    "value": 0,
+  },
+  "loading": true,
+  "query": "",
+}
+`;
+
+exports[`should handle ADD_NEW_TODO_SUCCESS 1`] = `
+Object {
+  "entities": Array [],
+  "error": null,
+  "filter": Object {
+    "title": "All",
+    "value": 0,
+  },
+  "loading": false,
+  "query": "",
+}
+`;
+
+exports[`should handle DELETE_TODO_BY_ID_FAILURE 1`] = `
+Object {
+  "entities": Array [],
+  "error": [Error: 404],
+  "filter": Object {
+    "title": "All",
+    "value": 0,
+  },
+  "loading": false,
+  "query": "",
+}
+`;
+
+exports[`should handle DELETE_TODO_BY_ID_REQUEST 1`] = `
+Object {
+  "entities": Array [],
+  "error": null,
+  "filter": Object {
+    "title": "All",
+    "value": 0,
+  },
+  "loading": true,
+  "query": "",
+}
+`;
+
+exports[`should handle DELETE_TODO_BY_ID_SUCCESS 1`] = `
+Object {
+  "entities": Array [],
+  "error": null,
+  "filter": Object {
+    "title": "All",
+    "value": 0,
+  },
+  "loading": false,
+  "query": "",
+}
+`;
+
+exports[`should handle FILTER_TODO 1`] = `
+Object {
+  "entities": Array [],
+  "error": null,
+  "filter": Object {},
+  "loading": false,
+  "query": "",
+}
+`;
+
+exports[`should handle GET_ALL_TODO_FAILURE 1`] = `
+Object {
+  "entities": Array [],
+  "error": [Error: 404],
+  "filter": Object {
+    "title": "All",
+    "value": 0,
+  },
+  "loading": false,
+  "query": "",
+}
+`;
+
+exports[`should handle GET_ALL_TODO_REQUEST 1`] = `
+Object {
+  "entities": Array [],
+  "error": null,
+  "filter": Object {
+    "title": "All",
+    "value": 0,
+  },
+  "loading": true,
+  "query": "",
+}
+`;
+
+exports[`should handle GET_ALL_TODO_SUCCESS 1`] = `
+Object {
+  "entities": Array [],
+  "error": null,
+  "filter": Object {
+    "title": "All",
+    "value": 0,
+  },
+  "loading": false,
+  "query": "",
+}
+`;
+
+exports[`should handle SEARCH_TODO 1`] = `
+Object {
+  "entities": Array [],
+  "error": null,
+  "filter": Object {
+    "title": "All",
+    "value": 0,
+  },
+  "loading": false,
+  "query": "",
+}
+`;
+
+exports[`should handle UPDATE_TODO_BY_ID_FAILURE 1`] = `
+Object {
+  "entities": Array [],
+  "error": [Error: 404],
+  "filter": Object {
+    "title": "All",
+    "value": 0,
+  },
+  "loading": false,
+  "query": "",
+}
+`;
+
+exports[`should handle UPDATE_TODO_BY_ID_REQUEST 1`] = `
+Object {
+  "entities": Array [],
+  "error": null,
+  "filter": Object {
+    "title": "All",
+    "value": 0,
+  },
+  "loading": true,
+  "query": "",
+}
+`;
+
+exports[`should handle UPDATE_TODO_BY_ID_SUCCESS 1`] = `
+Object {
+  "entities": Array [],
+  "error": null,
+  "filter": Object {
+    "title": "All",
+    "value": 0,
+  },
+  "loading": false,
+  "query": "",
+}
+`;
+
+exports[`should handle UPDATE_TODO_STATUS_BY_ID_FAILURE 1`] = `
+Object {
+  "entities": Array [],
+  "error": [Error: 404],
+  "filter": Object {
+    "title": "All",
+    "value": 0,
+  },
+  "loading": false,
+  "query": "",
+}
+`;
+
+exports[`should handle UPDATE_TODO_STATUS_BY_ID_REQUEST 1`] = `
+Object {
+  "entities": Array [],
+  "error": null,
+  "filter": Object {
+    "title": "All",
+    "value": 0,
+  },
+  "loading": true,
+  "query": "",
+}
+`;
+
+exports[`should handle UPDATE_TODO_STATUS_BY_ID_SUCCESS 1`] = `
+Object {
+  "entities": Array [],
+  "error": null,
+  "filter": Object {
+    "title": "All",
+    "value": 0,
+  },
+  "loading": false,
+  "query": "",
+}
+`;

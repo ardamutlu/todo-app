@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should create an action to set is mobile 1`] = `
+Object {
+  "payload": Object {
+    "isMobile": false,
+  },
+  "type": "SET_IS_MOBILE",
+}
+`;

@@ -1,0 +1,131 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should create a action to filter todo 1`] = `
+Object {
+  "payload": Object {},
+  "type": "FILTER_TODO",
+}
+`;
+
+exports[`should create a action to search todo 1`] = `
+Object {
+  "payload": Object {
+    "query": "",
+  },
+  "type": "SEARCH_TODO",
+}
+`;
+
+exports[`should create a failure action to add new todo 1`] = `
+Object {
+  "payload": Object {
+    "err": [Error],
+  },
+  "type": "ADD_NEW_TODO_FAILURE",
+}
+`;
+
+exports[`should create a failure action to delete todo by id 1`] = `
+Object {
+  "payload": Object {
+    "err": [Error],
+  },
+  "type": "DELETE_TODO_BY_ID_FAILURE",
+}
+`;
+
+exports[`should create a failure action to get all 1`] = `
+Object {
+  "payload": Object {
+    "err": [Error],
+  },
+  "type": "GET_ALL_TODO_FAILURE",
+}
+`;
+
+exports[`should create a failure action to update todo by id 1`] = `
+Object {
+  "payload": Object {
+    "err": [Error],
+  },
+  "type": "UPDATE_TODO_STATUS_BY_ID_FAILURE",
+}
+`;
+
+exports[`should create a failure action to update todo status by id 1`] = `
+Object {
+  "payload": Object {
+    "err": [Error],
+  },
+  "type": "UPDATE_TODO_STATUS_BY_ID_FAILURE",
+}
+`;
+
+exports[`should create a success action to add new todo 1`] = `
+Object {
+  "payload": Array [],
+  "type": "ADD_NEW_TODO_SUCCESS",
+}
+`;
+
+exports[`should create a success action to delete todo by id 1`] = `
+Object {
+  "payload": Array [],
+  "type": "DELETE_TODO_BY_ID_SUCCESS",
+}
+`;
+
+exports[`should create a success action to get all todo 1`] = `
+Object {
+  "payload": Array [],
+  "type": "GET_ALL_TODO_SUCCESS",
+}
+`;
+
+exports[`should create a success action to update todo by id 1`] = `
+Object {
+  "payload": Array [],
+  "type": "UPDATE_TODO_STATUS_BY_ID_SUCCESS",
+}
+`;
+
+exports[`should create a success action to update todo status by id 1`] = `
+Object {
+  "payload": Array [],
+  "type": "UPDATE_TODO_STATUS_BY_ID_SUCCESS",
+}
+`;
+
+exports[`should create an action to add new todo 1`] = `
+Object {
+  "payload": Object {},
+  "type": "ADD_NEW_TODO_REQUEST",
+}
+`;
+
+exports[`should create an action to delete todo by id 1`] = `
+Object {
+  "payload": 0,
+  "type": "DELETE_TODO_BY_ID_REQUEST",
+}
+`;
+
+exports[`should create an action to get all todo 1`] = `
+Object {
+  "type": "GET_ALL_TODO_REQUEST",
+}
+`;
+
+exports[`should create an action to update todo by id 1`] = `
+Object {
+  "payload": Object {},
+  "type": "UPDATE_TODO_STATUS_BY_ID_REQUEST",
+}
+`;
+
+exports[`should create an action to update todo status by id 1`] = `
+Object {
+  "payload": Object {},
+  "type": "UPDATE_TODO_STATUS_BY_ID_REQUEST",
+}
+`;

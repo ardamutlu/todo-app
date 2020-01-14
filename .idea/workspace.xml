@@ -2,20 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="de57b23d-6fca-4020-b922-785114434f35" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/client/components/Loader/Loader.stories.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/client/components/Loader/Loader.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/client/components/Loader/__snapshots__/Loader.stories.storyshot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/client/components/Loader/constants.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/client/components/Loader/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/client/components/Loader/pose.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/client/components/Loader/style.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/client/utils/createComponentWithIntl.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.storybook/config.js" beforeDir="false" afterPath="$PROJECT_DIR$/.storybook/config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/client/components/App/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/client/components/App/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/server/renderFullPage.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/server/renderFullPage.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/client/components/App/App.test.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/client/components/App/App.test.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/client/components/pages/Documentation/Documentation.test.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/client/components/pages/Documentation/Documentation.test.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/client/components/pages/Documentation/Documentation.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/client/components/pages/Documentation/Documentation.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/client/components/pages/Home/Home.test.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/client/components/pages/Home/Home.test.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/client/components/pages/NotFound/NotFound.stories.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/client/components/pages/NotFound/NotFound.stories.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/client/components/pages/NotFound/NotFound.test.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/client/components/pages/NotFound/NotFound.test.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/client/router/Router.test.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/client/router/Router.test.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.config.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -102,7 +98,8 @@
       <option name="presentableId" value="Default" />
       <updated>1578508998071</updated>
       <workItem from="1578509000678" duration="128103000" />
-      <workItem from="1578987699445" duration="1748000" />
+      <workItem from="1578987699445" duration="1935000" />
+      <workItem from="1578998268537" duration="4119000" />
     </task>
     <servers />
   </component>
@@ -146,10 +143,10 @@
       <screen x="0" y="23" width="1680" height="947" />
     </state>
     <state x="495" y="118" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.23.1680.947@0.23.1680.947" timestamp="1578750930277" />
-    <state x="488" y="237" width="703" height="518" key="find.popup" timestamp="1578989745402">
+    <state x="488" y="237" width="703" height="518" key="find.popup" timestamp="1579002310497">
       <screen x="0" y="23" width="1680" height="947" />
     </state>
-    <state x="488" y="237" width="703" height="518" key="find.popup/0.23.1680.947@0.23.1680.947" timestamp="1578989745402" />
+    <state x="488" y="237" width="703" height="518" key="find.popup/0.23.1680.947@0.23.1680.947" timestamp="1579002310497" />
     <state x="504" y="230" width="670" height="676" key="search.everywhere.popup" timestamp="1578919738140">
       <screen x="0" y="23" width="1680" height="947" />
     </state>

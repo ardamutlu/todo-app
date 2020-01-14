@@ -6,6 +6,7 @@ import { MemoryRouter } from 'react-router-dom';
 import { App } from '.';
 import { initialState } from '../../reducers';
 import * as actions from '../../actions/pages';
+import { IntlProvider } from 'react-intl';
 
 test('should call loadAppProcess via useDispatch', () => {
   const mockStore = configureStore()(initialState);
@@ -18,9 +19,11 @@ test('should call loadAppProcess via useDispatch', () => {
 
     render(
       <Provider store={mockStore}>
-        <MemoryRouter initialEntries={['/']} keyLength={0}>
-          <App />
-        </MemoryRouter>
+        <IntlProvider locale="en">
+          <MemoryRouter initialEntries={['/']} keyLength={0}>
+            <App />
+          </MemoryRouter>
+        </IntlProvider>
       </Provider>
     );
 
@@ -36,9 +39,11 @@ test('should call loadAppProcess via useDispatch', () => {
 
     render(
       <Provider store={mockStore}>
-        <MemoryRouter initialEntries={['/']} keyLength={0}>
-          <App />
-        </MemoryRouter>
+        <IntlProvider locale="en">
+          <MemoryRouter initialEntries={['/']} keyLength={0}>
+            <App />
+          </MemoryRouter>
+        </IntlProvider>
       </Provider>
     );
 
