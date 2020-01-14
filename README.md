@@ -123,8 +123,8 @@ If you want to get 100 point for Best Practices, you need to set a reverse proxy
 ## Setup
 
 ```sh
-$ git clone git@github.com:hiroppy/ssr-sample.git
-$ cd ssr-sample
+$ git clone git@github.com:ardamutlu/todo-app.git
+$ cd todo-app
 $ npm i
 ```
 

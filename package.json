@@ -1,5 +1,5 @@
 {
-  "name": "to-do",
+  "name": "todo-app",
   "version": "1.0.0",
   "description": "",
   "scripts": {
@@ -23,11 +23,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ardamutlu/to-do.git"
+    "url": "git+https://github.com/ardamutlu/todo-app.git"
   },
   "author": "ardamutlu",
   "license": "MIT",
-  "homepage": "https://github.com/ardamutlu/to-do#readme",
+  "homepage": "https://github.com/ardamutlu/todo-app#readme",
   "devDependencies": {
     "@babel/cli": "7.7.7",
     "@babel/core": "7.7.7",
@@ -149,6 +149,7 @@
     "react-dom": "16.12.0",
     "react-helmet": "5.2.1",
     "react-intl": "^3.11.0",
+    "react-loading": "^2.0.3",
     "react-markdown": "^4.3.1",
     "react-pose": "^4.0.10",
     "react-redux": "7.1.3",

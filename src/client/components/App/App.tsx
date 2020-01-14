@@ -1,9 +1,10 @@
-import React, { useEffect } from 'react';
+import React, { useEffect, useState } from 'react';
 import { useDispatch } from 'react-redux';
 import styled, { createGlobalStyle } from 'styled-components';
 import { Header } from '../Header';
 import { loadAppProcess } from '../../actions/pages';
 import { ThemeProvider } from '../../theme';
+import { Loader } from '../Loader';
 
 export const GlobalStyle = createGlobalStyle`
   html {
@@ -128,17 +129,22 @@ const Main = styled.div`
 // like App-Shell of PWA
 export const App: React.FC = ({ children }) => {
   const dispatch = useDispatch();
+  const [visible, setVisible] = useState(true);
 
   if (!process.env.IS_BROWSER) {
     dispatch(loadAppProcess());
   } else {
     useEffect(() => {
       dispatch(loadAppProcess());
+      setTimeout(() => {
+        setVisible(false);
+      }, 0);
     }, []);
   }
 
   return (
     <ThemeProvider>
+      <Loader visible={visible} />
       <Container>
         <Header />
         <GlobalStyle />

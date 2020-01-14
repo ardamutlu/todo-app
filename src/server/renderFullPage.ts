@@ -26,6 +26,22 @@ export const renderFullPage = ({ meta, body, style, scripts, preloadedState, non
         <meta property="csp-nonce" content="${nonce}">
         ${meta}
         <link rel="manifest" href="/manifest.webmanifest">
+        <style>
+        .todo-loader {
+          background-color: #f2f3f8;
+          position: fixed;
+          top: 0;
+          right: 0;
+          bottom: 0;
+          left: 0;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          height: 100%;
+          width: 100%;
+          z-index: 6001;
+        }
+        </style>
         <link href="https://fonts.googleapis.com/css?family=Ubuntu:400,500,700&display=swap" rel="stylesheet">
         <link
           rel="stylesheet"
