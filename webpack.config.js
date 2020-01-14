@@ -9,7 +9,7 @@ const LoadablePlugin = require('@loadable/webpack-plugin');
 const common = {
   output: {
     filename: '[name].bundle.js',
-    publicPath: '/'
+    publicPath: '/public/'
   },
   resolve: {
     modules: ['node_modules'],
